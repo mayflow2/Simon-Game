@@ -19,7 +19,7 @@ $(".btn").click(function() {
   if(started){
     var userChosenColor = $(this).attr("id");
     userClickedPattern.push(userChosenColor);
-    console.log(userClickedPattern);
+    // console.log(userClickedPattern);
     playSound(userChosenColor);
     animatePress(userChosenColor);
     checkAnswer(userClickedPattern.length - 1);
